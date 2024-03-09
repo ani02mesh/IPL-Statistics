@@ -17,7 +17,7 @@ with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
 per_del,match = IPL_query.Datacleaning()
 
-st.title ("IPL Stats -> 2008-2022")
+st.title ("IPL Stats -> 2008-2022🏏")
 
 cols = st.columns((1,1),gap='small')
 with cols[0]:
@@ -138,9 +138,9 @@ with cols[0]:
         key='seasonn'
     )
 with cols[1]:
-    st.subheader('Winner :  ' + IPL_query.winner())
+    st.subheader('Winner :  ' + IPL_query.winner()+' 🏆')
 with cols[2]:
-    st.subheader('Runner up :  ' + IPL_query.runner_up())
+    st.subheader('Runner up :  ' + IPL_query.runner_up()+' 🥈')
 cols = st.columns((1,2.2,2.2),gap='medium')
 
 cols = st.columns((3,4),gap='large')
