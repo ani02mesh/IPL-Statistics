@@ -18,3 +18,9 @@ font-size:x-large;
 padding-left:3.4rem;
 color:white
 }
+[data-testid="stMetricValue"]>.st-emotion-cache-1wivap2.e1i5pmia3{
+color:white
+}
+[data-testid="stMetricLabel"]{
+color:white
+}
